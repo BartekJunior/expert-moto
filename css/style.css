@@ -217,6 +217,32 @@
   line-height: 26px;
 }
 
+.banner-24h {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  height: 100px;
+  width: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--bs-primary);
+  filter: brightness(70%);
+
+  padding: 10px 20px;
+  font-weight: 20px;
+  z-index: 2;
+}
+
+.banner-24h > p {
+  margin: 0;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+
 .carousel .carousel-item img {
   object-fit: cover;
 }
@@ -267,6 +293,14 @@
   .carousel-indicators [data-bs-target] {
     display: none;
   }
+
+  .banner-24h {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 }
 
 /*** Carousel Header End ***/
