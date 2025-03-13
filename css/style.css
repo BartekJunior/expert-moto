@@ -1077,3 +1077,67 @@
 }
 
 /*** copyright end ***/
+
+
+/* NEW PRICE LIST */
+/* NEW PRICE LIST */
+/* NEW PRICE LIST */
+
+.section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  margin: 20px 10%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .section {
+    margin: 20px 2%;
+  }
+}
+
+.cennik-title {
+  margin-top: 30px;
+  text-align: center;
+}
+.section-title {
+  background-color: var(--bs-secondary);
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.item:last-child {
+  border-bottom: none;
+}
+
+.description {
+  width: 80%;
+  padding-left: 20px;
+}
+.price {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: right;
+  color: #333;
+}
+.highlight {
+  text-align: center;
+  font-weight: bold;
+  margin: 40px 0;
+}
+/* NEW PRICE LIST */
+/* NEW PRICE LIST */
+/* NEW PRICE LIST */
